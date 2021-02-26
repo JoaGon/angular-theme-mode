@@ -1,0 +1,4 @@
+.animate-colors-transition * {
+  transition: color 0.5s, background 0.5s;
+  transition: background-color 1000ms linear;
+}

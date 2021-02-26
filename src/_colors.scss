@@ -1,0 +1,16 @@
+$accent-color: #fff;
+$accent-color-dark: #191932;
+
+$font-color: #191932;
+$font-color-dark: #fff;
+
+$colors: (
+  --accent-color: (
+    $accent-color,
+    $accent-color-dark,
+  ),
+  --font-color: (
+    $font-color,
+    $font-color-dark,
+  ),
+);

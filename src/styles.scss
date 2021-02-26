@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./colors";
+@import "./theme";
+@import "./animations";
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--font-color);
+  background-color: var(--accent-color);
+  height: 100%;
+}
+button {
+  width: 344px;
+  height: 50px;
+  left: 16px;
+  top: 563px;
+  font-size: 1rem;
+
+  /* blue */
+
+  background: #023aff;
+  border-radius: 10px;
+  color: #fff;
+  border: transparent;
+  cursor: pointer;
+  &:hover {
+    background-color: #5175f7;
+  }
+  &:active {
+    outline: 0;
+  }
+  &:focus {
+    outline: 0;
+  }
+}
